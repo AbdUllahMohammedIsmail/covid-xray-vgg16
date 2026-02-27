@@ -112,16 +112,16 @@ ________________________________________________________________________________
 
 
 📊 Training Curves
-Accuracy
+Accuracy:
 
 <img width="640" height="480" alt="accuracy" src="https://github.com/user-attachments/assets/8781b275-748b-4754-b0ba-315e9fffe729" />
 
-Loss
+Loss:
 
 <img width="640" height="480" alt="loss" src="https://github.com/user-attachments/assets/ab24ad21-f6f1-4a46-89b2-11327abe0f84" />
 
 
-Confusion Matrix
+Confusion Matrix:
 
 <img width="600" height="600" alt="confusion_matrix" src="https://github.com/user-attachments/assets/0cb76ea7-f141-49a8-8b27-c983ba3bbc69" />
 
@@ -160,6 +160,7 @@ ________________________________________________________________________________
 ⚠️ Disclaimer
 
 This project is for research and educational purposes only.
+
 It is not intended for real clinical diagnosis.
 _______________________________________________________________________________________________________________________________________________________
 
@@ -167,5 +168,7 @@ ________________________________________________________________________________
 
 Abdullah Mohamed
 AI & Computer Vision Enthusiast
+
 GitHub: https://github.com/AbdUllahMohammedIsmail
+
 
