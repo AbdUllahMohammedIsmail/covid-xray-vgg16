@@ -1,9 +1,12 @@
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-DeepLearning-orange)
 
+_______________________________________________________________________________________________________________________________________________________
+
 🧠 COVID-19 Multi-Class Classification from Chest X-ray Images
 Transfer Learning with VGG16
 
+_______________________________________________________________________________________________________________________________________________________
 📌 Project Overview
 
 This project implements a structured deep learning pipeline to classify Chest X-ray images into:
@@ -21,6 +24,7 @@ The main goal was not only to train a model, but to design a robust training & e
 ⁕ Class imbalance
 
 ⁕ Proper medical evaluation metrics
+_______________________________________________________________________________________________________________________________________________________
 
 📊 Dataset Summary
 
@@ -41,6 +45,8 @@ Test Set (66 images)
 ⁕ Viral Pneumonia: 20
 
 Due to limited data size, careful regularization and transfer learning were applied.
+_______________________________________________________________________________________________________________________________________________________
+
 
 🧠 Model Architecture
 
@@ -63,6 +69,8 @@ Why VGG16?
 
 ⁕ Performs well on small medical datasets
 
+_______________________________________________________________________________________________________________________________________________________
+
 
 ⚙️ Training Strategy
 
@@ -77,6 +85,8 @@ Why VGG16?
 ⁕ Early stopping to prevent overfitting
 
 ⁕ Adam optimizer (low learning rate)
+_______________________________________________________________________________________________________________________________________________________
+
 
 📈 Evaluation
 
@@ -98,20 +108,25 @@ Test Accuracy: ~89%
 
 Key observation:
 Minor confusion between COVID and Viral Pneumonia due to radiographic similarity — expected in small datasets.
+_______________________________________________________________________________________________________________________________________________________
+
 
 📊 Training Curves
 Accuracy
+
 <img width="640" height="480" alt="accuracy" src="https://github.com/user-attachments/assets/8781b275-748b-4754-b0ba-315e9fffe729" />
 
 Loss
+
 <img width="640" height="480" alt="loss" src="https://github.com/user-attachments/assets/ab24ad21-f6f1-4a46-89b2-11327abe0f84" />
 
 
 Confusion Matrix
+
 <img width="600" height="600" alt="confusion_matrix" src="https://github.com/user-attachments/assets/0cb76ea7-f141-49a8-8b27-c983ba3bbc69" />
 
 
-
+_______________________________________________________________________________________________________________________________________________________
 
 🚀 How to Run
 git clone https://github.com/AbdUllahMohammedIsmail/covid-xray-vgg16.git
@@ -125,10 +140,7 @@ python src/train.py
 Run evaluation:
 
 python src/evaluate.py
-
-
-
-
+_______________________________________________________________________________________________________________________________________________________
 
 🛠 Tech Stack
 
@@ -143,15 +155,17 @@ python src/evaluate.py
 ⁕ Matplotlib
 
 ⁕ Seaborn
-
+_______________________________________________________________________________________________________________________________________________________
 
 ⚠️ Disclaimer
 
 This project is for research and educational purposes only.
 It is not intended for real clinical diagnosis.
+_______________________________________________________________________________________________________________________________________________________
 
 👨‍💻 Author
 
 Abdullah Mohamed
 AI & Computer Vision Enthusiast
 GitHub: https://github.com/AbdUllahMohammedIsmail
+
