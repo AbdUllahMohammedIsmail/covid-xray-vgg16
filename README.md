@@ -28,6 +28,13 @@ ________________________________________________________________________________
 
 📊 Dataset Summary
 
+Context
+Helping Deep Learning and AI Enthusiasts like me to contribute to improving COVID-19 detection using just Chest X-rays.
+
+Content
+It is a simple directory structure branched into test and train and further branched into the respective 3 classes which contains the images.
+
+
 Training Set (251 images)
 
 ⁕ COVID: 111
@@ -171,6 +178,7 @@ Abdullah Mohamed
 AI & Computer Vision Enthusiast
 
 GitHub: https://github.com/AbdUllahMohammedIsmail
+
 
 
 
